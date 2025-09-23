@@ -1,36 +1,22 @@
-# Erandio Portfolio
+# Hello, I'm Erandio
 
-Welcome to my personal web portfolio! This site showcases my projects, skills, and experience in web development and programming. Built with HTML, CSS, and JavaScript, this portfolio highlights my journey as a developer.
+I'm a passionate web developer and creative coder building clean, responsive, and user-friendly websites. I enjoy turning ideas into reality through code and design — whether it’s front-end interfaces, interactive projects, or database-driven apps.
 
-## Features
+Currently sharpening my skills in HTML, CSS, JavaScript, and SQL — always learning, always building.
 
-- **Responsive Design**: Works seamlessly on desktop and mobile devices.
-- **Interactive Elements**: Includes dynamic content and smooth navigation.
-- **Project Showcase**: Highlights key projects with descriptions and visuals.
-- **Contact Form**: Easy way to reach out for collaborations or opportunities.
+---
 
-## Project Structure
-erandio-portfolio/
-│
-├── index.html # Main landing page
-├── contact.html # Contact form and information
-├── projects.html # Showcase of completed projects
-├── style.css # Styling for the entire site
-├── main.js # JavaScript functionality
-├── profile.jpg # Personal profile image
-├── draw.jpg # Art/creative work
-├── html.jpg # HTML/CSS related visual
-├── prog.jpg # Programming/development photo
-├── sql.jpg # Database/SQL related image
-├── teamwork.jpg # Team collaboration image
-└── README.md # This file
+##  Portfolio Sections
 
-## Technologies Used
+My portfolio is organized into the following sections to give you a full view of my work and personality:
 
-- **HTML5** – Structuring the content
-- **CSS3** – Styling and layout design
-- **JavaScript (ES6+)** – Interactive features and dynamic behavior
-- **GitHub Pages** – Hosting the live site
+- **Home** — Welcome message and quick intro
+- **About Me** — My story, skills, and what drives me
+- **Projects** — Featured work with descriptions and visuals
+- **Skills** — Technologies and tools I use
+- **Contact** — Let’s connect! Drop me a message
+
+---
 
 ## Live Demo
 
@@ -51,4 +37,24 @@ erandio-portfolio/
 - Replace `[@yourinstagramhandle]` with your actual Instagram username (e.g., `@erandio.dev`).
 - Optional: Add an Instagram badge or link icon using markdown or HTML if you embed this in your site later.
 
-Let me know if you want to add a “Hire Me” section, project highlights, or even a dark mode toggle note — I’m happy to customize it further! 
+## Technologies Used
+
+- **Front-End**: HTML5, CSS3, JavaScript (ES6+)
+- **Design**: Responsive layouts, Flexbox, CSS Grid
+- **Tools**: VS Code, Git, GitHub Pages
+- **Media**: Custom photography and graphics (draw.jpg, prog.jpg, etc.)
+
+---
+
+## How to Contact Me
+
+I’m open to freelance work, collaboration, or just a friendly hello!
+
+📧 **Email**: [your.email@example.com]  
+📸 **Instagram**: [@yourinstagramhandle]
+
+*(Replace with your real email and Instagram handle)*
+
+---
+
+Thanks for stopping by — let’s build something awesome together!
