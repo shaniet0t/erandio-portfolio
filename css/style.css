@@ -298,8 +298,101 @@ nav a:hover {
   line-height: 1.6;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid #ddd;
+      transition: border 0.2s;
+    }
+    .gallery img:hover {
+      border-color: #4CAF50;
+    }
+    
+.portfolio {
+  background-color: #f0f8ff; 
+  padding: 40px 20px;
+  border-radius: 16px;  
+  margin: 30px auto;      
+  max-width: 900px;          
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.activities-bg {
+  background-color: #e8f4fc;
+  padding: 40px 20px;
+  border-radius: 16px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+    /* LIGHTBOX */
+    #lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      z-index: 9999;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    #lightbox.active {
+      display: block;
+      opacity: 1;
+    }
+    #lightbox-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      max-height: 90%;
+      border: 3px solid white;
+    }
+    #close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: white;
+      font-size: 40px;
+      cursor: pointer;
+      z-index: 10000;
+}
 
 
+
+---
 
 .contact {
   padding: 6rem 0;
@@ -482,4 +575,4 @@ footer p {
   nav ul {
     gap: 1rem;
   }
-}
+      }
