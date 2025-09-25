@@ -8,6 +8,55 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+let lastScrollY = 0;
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = document.getElementById('close-btn');
+
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+
+  function openLightbox(src) {
+    lightboxImg.src = src;
+    lightbox.classList.add('active');
+    lastScrollY = window.scrollY;
+    document.body.style.overflow = 'hidden';
+    history.pushState({ lightbox: true }, '', '#view');
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+    window.scrollTo(0, lastScrollY);
+  }
+
+  document.querySelectorAll('.gallery').forEach(gallery => {
+    gallery.addEventListener('click', function(e) {
+      if (e.target.tagName === 'IMG') {
+        openLightbox(e.target.src);
+      }
+    });
+  });
+
+  closeBtn.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  window.addEventListener('popstate', function(e) {
+    if (lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
+  });
+
 
 
 
