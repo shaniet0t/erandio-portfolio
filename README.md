@@ -12,7 +12,7 @@ My portfolio is organized into the following sections to give you a full view of
 
 - **Home** — Welcome message and quick intro
 - **About Me** — My story, skills, and what drives me
-- **Projects** — Featured work with descriptions and visuals
+- **Activities** — Featured work with descriptions and visuals
 - **Skills** — Technologies and tools I use
 - **Contact** — Let’s connect! Drop me a message
 
@@ -31,11 +31,6 @@ My portfolio is organized into the following sections to give you a full view of
    git clone https://github.com/shaniеt0t/erandio-portfolio.git
 
 ---
-
-### Next Steps:
-- Replace `[your.email@example.com]` with your real email.
-- Replace `[@yourinstagramhandle]` with your actual Instagram username (e.g., `@erandio.dev`).
-- Optional: Add an Instagram badge or link icon using markdown or HTML if you embed this in your site later.
 
 ## Technologies Used
 
