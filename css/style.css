@@ -296,8 +296,26 @@ nav a:hover {
   color: var(--gray);
   margin-bottom: 1.2rem;
   line-height: 1.6;
+}
 
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
 .gallery {
       display: flex;
       flex-wrap: wrap;
@@ -336,6 +354,7 @@ nav a:hover {
   max-width: 900px;
 }
 
+    /* LIGHTBOX */
     #lightbox {
       display: none;
       position: fixed;
@@ -556,4 +575,4 @@ footer p {
   nav ul {
     gap: 1rem;
   }
-      }
+}
