@@ -50,10 +50,9 @@ My portfolio is organized into the following sections to give you a full view of
 
 I’m open to freelance work, collaboration, or just a friendly hello!
 
-📧 **Email**: [your.email@example.com]  
-📸 **Instagram**: [@yourinstagramhandle]
+📧 **Email**: [shanneerandio05@gmail.com]  
+📸 **Instagram**: [https://www.instagram.com/crzy.shan?igsh=dmU4ZTE3eHlldnZu]
 
-*(Replace with your real email and Instagram handle)*
 
 ---
 
